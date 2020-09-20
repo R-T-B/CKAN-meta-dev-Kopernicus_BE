@@ -1,0 +1,62 @@
+{
+    "spec_version": "v1.6",
+    "identifier": "Kopernicus_BE",
+    "ksp_version_min": "1.9.1",
+    "ksp_version_max": "1.9.1",
+    "name": "Kopernicus Bleeding Edge Beta - DEV RELEASE",
+    "abstract": "This is R-T-B's 'Bleeding Edge' branch of Kopernicus, intended to support the latest features, KSP editions, and also the latest bugs. Please keep in mind this branch may be more buggy than Prestja's mainline Kopernicus branch, but it also supports more KSP versions and has more features implemented for testing reasons. Many features that make it into mainline Kopernicus are born, tested, and trialed by fire here.",
+    "author": "BryceSchroeder,Teknoman117,Thomas P.,NathanKell,KillAshley,Gravitasi,KCreator,Sigma88,R-T-B,prestja",
+    "license": "LGPL-3.0",
+    "release_status": "development",
+    "provides": [
+        "Kopernicus",
+		"ModularFlightIntegrator"
+    ],
+    "conflicts": [
+        {
+            "name": "Kopernicus"
+        }
+    ],
+	    "tags": [
+        "plugin",
+        "library"
+    ],
+    "localizations": [
+        "en-us",
+        "it-it",
+        "ru",
+        "zh-cn"
+    ],
+    "depends": [
+        {
+            "name": "ModuleManager",
+            "min_version": "2.8.0"
+        },
+        {
+            "name": "ModularFlightIntegrator",
+            "min_version": "1.2.4.0"
+        }
+    ],
+	    "install": [
+        {
+            "find": "Kopernicus",
+			"install_to": "GameData",
+        },
+		{
+			"find": "ModularFlightIntegrator",
+            "install_to": "GameData"
+		}
+    ],
+    "resources": {
+        "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/195699-191-1101r-t-bs-kopernicus-unified-bleeding-edge-branch/",
+        "repository": "https://github.com/R-T-B/Kopernicus/"
+    },
+    "version": "UBEE_191_28",
+    "download": "https://github.com/R-T-B/Kopernicus/releases/download/UBE-release-28/KopernicusBE_191_Release28.zip",
+    "download_size": 392314,
+    "download_hash": {
+        "sha1": "992A23A03DD12DD60AE9800DEDC6F3D7319D756A",
+        "sha256": "B9D6A1249CDDB6C7A41BA4044E68EFF49258154AE91BF0B100DA3E854138DC79"
+    },
+    "x_generated_by": "netkan"
+}
