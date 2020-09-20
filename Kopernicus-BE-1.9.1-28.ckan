@@ -1,23 +1,26 @@
 {
     "spec_version": "v1.6",
-    "identifier": "Kopernicus_BE",
-    "ksp_version_min": "1.10.1",
-    "ksp_version_max": "1.10.1",
+    "identifier": "Kopernicus-BE",
+    "ksp_version_min": "1.9.1",
+    "ksp_version_max": "1.9.1",
     "name": "Kopernicus Bleeding Edge Beta - DEV RELEASE",
     "abstract": "This is R-T-B's 'Bleeding Edge' branch of Kopernicus, intended to support the latest features, KSP editions, and also the latest bugs. Please keep in mind this branch may be more buggy than Prestja's mainline Kopernicus branch, but it also supports more KSP versions and has more features implemented for testing reasons. Many features that make it into mainline Kopernicus are born, tested, and trialed by fire here.",
-    "author": "BryceSchroeder,Teknoman117,Thomas P.,NathanKell,KillAshley,Gravitasi,KCreator,Sigma88,R-T-B,prestja",
+    "author": [ "BryceSchroeder","Teknoman117","Thomas P.","NathanKell","KillAshley","Gravitasi","KCreator","Sigma88","R-T-B","prestja" ],
     "license": "LGPL-3.0",
     "release_status": "development",
     "provides": [
         "Kopernicus",
-		"ModularFlightIntegrator"
+        "ModularFlightIntegrator"
     ],
     "conflicts": [
         {
             "name": "Kopernicus"
+        },
+        {
+            "name": "ModularFlightIntegrator"
         }
     ],
-	    "tags": [
+    "tags": [
         "plugin",
         "library"
     ],
@@ -31,32 +34,28 @@
         {
             "name": "ModuleManager",
             "min_version": "2.8.0"
-        },
-        {
-            "name": "ModularFlightIntegrator",
-            "min_version": "1.2.4.0"
         }
     ],
-	    "install": [
+    "install": [
         {
             "find": "Kopernicus",
-			"install_to": "GameData",
+            "install_to": "GameData",
         },
-		{
-			"find": "ModularFlightIntegrator",
+        {
+            "find": "ModularFlightIntegrator",
             "install_to": "GameData"
-		}
-    ],    
-	"resources": {
+        }
+    ],
+    "resources": {
         "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/195699-191-1101r-t-bs-kopernicus-unified-bleeding-edge-branch/",
         "repository": "https://github.com/R-T-B/Kopernicus/"
     },
-    "version": "UBEE_1101_28",
-    "download": "https://github.com/R-T-B/Kopernicus/releases/download/UBE-release-28/KopernicusBE_1101_Release28.zip",
-    "download_size": 392409,
+    "version": "UBEE_191_28",
+    "download": "https://github.com/R-T-B/Kopernicus/releases/download/UBE-release-28/KopernicusBE_191_Release28.zip",
+    "download_size": 392314,
     "download_hash": {
-        "sha1": "9AB9F2278662D957A583A1A7A4F2D101E3454B0A",
-        "sha256": "3BE89B8E9AA178B1F40A2D4268238AE6F415308521C2AA73874415C1389D3639"
+        "sha1": "992A23A03DD12DD60AE9800DEDC6F3D7319D756A",
+        "sha256": "B9D6A1249CDDB6C7A41BA4044E68EFF49258154AE91BF0B100DA3E854138DC79"
     },
     "x_generated_by": "netkan"
 }
