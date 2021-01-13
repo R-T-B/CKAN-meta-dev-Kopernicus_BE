@@ -1,0 +1,57 @@
+{
+    "spec_version": "v1.6",
+    "identifier": "Kopernicus-BE",
+    "ksp_version_min": "1.10.1",
+    "ksp_version_max": "1.10.1",
+    "name": "Kopernicus Bleeding Edge Beta - DEV RELEASE",
+    "abstract": "This is R-T-B's 'Bleeding Edge' branch of Kopernicus, intended to support the latest features, KSP editions, and also the latest bugs. Please keep in mind this branch may be more buggy than Prestja's mainline Kopernicus branch, but it also supports more KSP versions and has more features implemented for testing reasons. Many features that make it into mainline Kopernicus are born, tested, and trialed by fire here.",
+    "author": [ "BryceSchroeder","Teknoman117","Thomas P.","NathanKell","KillAshley","Gravitasi","KCreator","Sigma88","R-T-B","prestja" ],
+    "license": "LGPL-3.0",
+    "release_status": "development",
+    "provides": [
+        "Kopernicus"
+    ],
+    "conflicts": [
+        {
+            "name": "Kopernicus"
+        }
+    ],
+    "tags": [
+        "plugin",
+        "library"
+    ],
+    "localizations": [
+        "en-us",
+        "it-it",
+        "ru",
+        "zh-cn"
+    ],
+    "depends": [
+        {
+            "name": "ModuleManager",
+            "min_version": "2.8.0"
+        },
+		{
+            "name": "ModularFlightIntegrator",
+            "min_version": "1.2.7.0"
+        }
+    ],
+    "install": [
+        {
+            "find": "Kopernicus",
+            "install_to": "GameData",
+        }
+    ],
+    "resources": {
+        "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/195699-191-1101r-t-bs-kopernicus-unified-bleeding-edge-branch/",
+        "repository": "https://github.com/R-T-B/Kopernicus/"
+    },
+    "version": "UBEE_1101_48",
+    "download": "https://github.com/R-T-B/Kopernicus/releases/download/UBE-release-48/KopernicusBE_1101_Release48.zip",
+    "download_size": 394794,
+    "download_hash": {
+        "sha1": "37F0A3566A010A47F7443383CA22970B76A72BBC",
+        "sha256": "3CB8B8545A6CB1D696364599E95BA8AF99457A832C9D2A741F991C1C50BF7EFB"
+    },
+    "x_generated_by": "netkan"
+}
