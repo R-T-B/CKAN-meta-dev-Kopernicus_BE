@@ -1,0 +1,58 @@
+{
+    "spec_version": "v1.6",
+    "identifier": "Kopernicus-BE",
+    "ksp_version_min": "1.9.1",
+    "ksp_version_max": "1.9.1",
+    "name": "Kopernicus Bleeding Edge Beta - DEV RELEASE",
+    "abstract": "This is R-T-B's 'Bleeding Edge' branch of Kopernicus, intended to support the latest features, KSP editions, and also the latest bugs. Please keep in mind this branch may be more buggy than Prestja's mainline Kopernicus branch, but it also supports more KSP versions and has more features implemented for testing reasons. Many features that make it into mainline Kopernicus are born, tested, and trialed by fire here.",
+    "author": [ "BryceSchroeder","Teknoman117","Thomas P.","NathanKell","KillAshley","Gravitasi","KCreator","Sigma88","R-T-B","prestja" ],
+    "license": "LGPL-3.0",
+    "release_status": "development",
+    "provides": [
+        "Kopernicus"
+    ],
+    "conflicts": [
+        {
+            "name": "Kopernicus"
+        }
+    ],
+    "tags": [
+        "plugin",
+        "library"
+    ],
+    "localizations": [
+        "en-us",
+		"fr-fr",
+        "it-it",
+        "ru",
+        "zh-cn"
+    ],
+    "depends": [
+        {
+            "name": "ModuleManager",
+            "min_version": "2.8.0"
+        },
+		{
+            "name": "ModularFlightIntegrator",
+            "min_version": "1.2.7.0"
+        }
+    ],
+    "install": [
+        {
+            "find": "Kopernicus",
+            "install_to": "GameData",
+        }
+    ],
+    "resources": {
+        "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/195699-191-1101r-t-bs-kopernicus-unified-bleeding-edge-branch/",
+        "repository": "https://github.com/R-T-B/Kopernicus/"
+    },
+    "version": "UBEE_191_60",
+    "download": "https://github.com/R-T-B/Kopernicus/releases/download/UBE-release-60/KopernicusBE_1.9.1_Release60.zip",
+    "download_size": 395209,
+    "download_hash": {
+        "sha1": "EA3A4CD822B52C9F0D38E6581623BC2003B08200",
+        "sha256": "4336FE2CBE057EC2B4064B9F88F0808BBE4CA6C3760560178D3D0991A7A3EE22"
+    },
+    "x_generated_by": "netkan"
+}
