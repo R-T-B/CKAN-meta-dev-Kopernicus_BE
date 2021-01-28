@@ -1,8 +1,8 @@
 {
     "spec_version": "v1.6",
     "identifier": "Kopernicus-BE",
-    "ksp_version_min": "1.8.1",
-    "ksp_version_max": "1.8.1",
+    "ksp_version_min": "1.10.1",
+    "ksp_version_max": "1.10.1",
     "name": "Kopernicus Bleeding Edge Beta - DEV RELEASE",
     "abstract": "This is R-T-B's 'Bleeding Edge' branch of Kopernicus, intended to support the latest features, KSP editions, and also the latest bugs. Please keep in mind this branch may be more buggy than Prestja's mainline Kopernicus branch, but it also supports more KSP versions and has more features implemented for testing reasons. Many features that make it into mainline Kopernicus are born, tested, and trialed by fire here.",
     "author": [ "BryceSchroeder","Teknoman117","Thomas P.","NathanKell","KillAshley","Gravitasi","KCreator","Sigma88","R-T-B","prestja" ],
@@ -47,12 +47,12 @@
         "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/195699-191-1101r-t-bs-kopernicus-unified-bleeding-edge-branch/",
         "repository": "https://github.com/R-T-B/Kopernicus/"
     },
-    "version": "UBEE_181_66",
-    "download": "https://github.com/R-T-B/Kopernicus/releases/download/UBE-release-66/KopernicusBE_1.8.1_Release66.zip",
-    "download_size": 389845,
+    "version": "UBEE_1101_70",
+    "download": "https://github.com/R-T-B/Kopernicus/releases/download/UBE-release-70/KopernicusBE_1.10.1_Release70.zip",
+    "download_size": 396849,
     "download_hash": {
-        "sha1": "D8D56F08F65FD8A6D3F453E914C3E27ACAAE952D",
-        "sha256": "24643DD60FC8B371559CF8B172AFB980CE7EC1EF1823C58E34171F0A23A7B535"
+        "sha1": "A19097F484B2186771D2FBFB5C3A7BA4DB12D89E",
+        "sha256": "4A3BC32282BC6904FA8361DDF2E38B65AFF2D1795589C6DACCE0D1E438E72192"
     },
     "x_generated_by": "netkan"
 }
