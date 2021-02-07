@@ -65,10 +65,10 @@
     },
     "version": "UBEE_181_77",
     "download": "https://github.com/R-T-B/Kopernicus/releases/download/UBE-release-77/KopernicusBE_1.8.1_Release77.zip",
-    "download_size": 385301,
+    "download_size": 385309,
     "download_hash": {
-        "sha1": "99716905233DAE71C9A010D9B68ED9578AEAF96E",
-        "sha256": "63B032B68CDA8E055D1B6DCCF38F58E4ED565CF52AF66C123185636AEA9C80AB"
+        "sha1": "0B37B00F4C6F04F0BEA737FEA49D1BBAB1F5FDF8",
+        "sha256": "6B51B263E6F3B09B29341770C13B0084D17092236B5FFEC6807FF702D92C8DB9"
     },
     "x_generated_by": "netkan"
 }
