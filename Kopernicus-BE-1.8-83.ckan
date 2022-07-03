@@ -70,10 +70,10 @@
     },
     "version": "UBEE_181_83",
     "download": "https://github.com/R-T-B/Kopernicus/releases/download/UBE-release-83/KopernicusBE_LEGACY18_Release83.zip",
-    "download_size": 698476,
+    "download_size": 698469,
     "download_hash": {
-        "sha1": "9FBCF435B3D6525F875CD52234987A74D3255B35",
-        "sha256": "A4BDF65A7A385BAAB2E2D882964DF99EBE4B9146BED1729FF0B29133EF617DAE"
+        "sha1": "59524A803F757581C37A2F5ACE11B690F9E1605E",
+        "sha256": "FB0DE5D22D88AB326D0C5E7FA2B1237929BB8272199EA3B9938B1C9ED63610BC"
     },
     "x_generated_by": "netkan"
 }

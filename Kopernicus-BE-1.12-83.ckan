@@ -70,10 +70,10 @@
     },
     "version": "UBEE_1121_83",
     "download": "https://github.com/R-T-B/Kopernicus/releases/download/UBE-release-83/KopernicusBE_19+_Release83.zip",
-    "download_size": 701362,
+    "download_size": 701364,
     "download_hash": {
-        "sha1": "5CCD03080B73F51567AF45EAFE44BBC1CB97A619",
-        "sha256": "76D62B17C3E81531449EEA53B7B2A8987CBE83B73A6D230A5A7F89B0B9092562"
+        "sha1": "505911E5ECE7EA48D2743EA24269E9B04FA496A7",
+        "sha256": "71DA2F4E857B166454159D787E88AD9A2A2801E3DC6D60E27C4F9D3324D8FCE0"
     },
     "x_generated_by": "netkan"
 }
