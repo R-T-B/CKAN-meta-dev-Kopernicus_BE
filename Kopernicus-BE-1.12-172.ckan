@@ -77,7 +77,7 @@
         "repository": "https://github.com/R-T-B/Kopernicus/"
     },
     "version": "UBEE_1121_172",
-    "download": "https://github.com/Kopernicus/Kopernicus/releases/download/release-172_RC1/Kopernicus-1.12.1-172.zip",
+    "download": "https://github.com/Kopernicus/Kopernicus/releases/download/release-172/Kopernicus-1.12.1-172.zip",
     "download_size": 1079570,
     "download_hash": {
         "sha1": "072B6E6463A489B95E0B1C97BF47ABBBFEBA8FC4",

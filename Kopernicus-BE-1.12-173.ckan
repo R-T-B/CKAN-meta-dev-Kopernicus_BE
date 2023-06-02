@@ -76,12 +76,12 @@
         "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/195699-191-1101r-t-bs-kopernicus-unified-bleeding-edge-branch/",
         "repository": "https://github.com/R-T-B/Kopernicus/"
     },
-    "version": "UBEE_1121_170",
-    "download": "https://github.com/Kopernicus/Kopernicus/releases/download/release-170/Kopernicus-1.12.1-170_RC1.zip",
-    "download_size": 1078716,
+    "version": "UBEE_1121_173",
+    "download": "https://github.com/Kopernicus/Kopernicus/releases/download/release-173/Kopernicus-1.12.1-173.zip",
+    "download_size": 1079567,
     "download_hash": {
-        "sha1": "8BC008FA0FF568A7FB5003E467A359E8ED7CECEB",
-        "sha256": "2DDDD4C3897438794888CFD78CD04763439E3BA9A7195C8E4A3D4BBF475BF285"
+        "sha1": "81C0C36B8E7437827495F6D1E8D0B55687A1A4B7",
+        "sha256": "E95A5822705566DB79CEFCCCFFCEBA45B49742976AFB2EA388941E4A99DF43D0"
     },
     "x_generated_by": "netkan"
 }
