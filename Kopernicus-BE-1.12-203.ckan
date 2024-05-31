@@ -1,0 +1,87 @@
+{
+    "spec_version": "v1.6",
+    "identifier": "Kopernicus-BE",
+    "ksp_version_min": "1.9.0",
+    "ksp_version_max": "1.12.99",
+    "name": "Kopernicus Bleeding Edge Beta - DEV RELEASE",
+    "abstract": "This is R-T-B's 'Bleeding Edge' branch of Kopernicus, intended to support the latest features, KSP editions, and also the latest bugs. Please keep in mind this branch may be more buggy than Prestja's mainline Kopernicus branch, but it also supports more KSP versions and has more features implemented for testing reasons. Many features that make it into mainline Kopernicus are born, tested, and trialed by fire here.",
+    "author": [ "BryceSchroeder","Teknoman117","Thomas P.","NathanKell","KillAshley","Gravitasi","KCreator","Sigma88","R-T-B","prestja" ],
+    "license": "LGPL-3.0",
+    "release_status": "development",
+    "provides": [
+        "Kopernicus"
+    ],
+    "conflicts": [
+        {
+            "name": "Kopernicus"
+        }
+    ],
+    "tags": [
+        "plugin",
+        "library"
+    ],
+    "localizations": [
+        "en-us",
+		"fr-fr",
+        "it-it",
+        "ru",
+        "zh-cn",
+		"es-es"
+    ],
+    "depends": [
+        {
+            "name": "ModuleManager",
+            "min_version": "2.8.0"
+        },
+		{
+            "name": "ModularFlightIntegrator",
+            "min_version": "1.2.7.0"
+        },
+		{
+            "name": "Harmony2",
+            "min_version": "2.2.1.0"
+        }
+    ],
+    "install": [
+        {
+            "find": "Kopernicus/Shaders",
+            "install_to": "GameData/Kopernicus",
+        },
+		{
+            "find": "Kopernicus/Plugins",
+            "install_to": "GameData/Kopernicus",
+        },
+		{
+            "find": "Kopernicus/Localization",
+            "install_to": "GameData/Kopernicus",
+        },
+		{
+            "find": "Kopernicus/Graphics",
+            "install_to": "GameData/Kopernicus",
+        },
+		{
+            "find": "Kopernicus/Config/SolarPanels.cfg",
+            "install_to": "GameData/Kopernicus/Config",
+        },
+		{
+            "find": "Kopernicus/Config/KSPCF_DisableMapSOPatches.cfg",
+            "install_to": "GameData/Kopernicus/Config",
+        },
+		{
+            "find": "Kopernicus/Config/System.cfg",
+            "install_to": "GameData/Kopernicus/Config",
+        }
+    ],
+    "resources": {
+        "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/195699-191-1101r-t-bs-kopernicus-unified-bleeding-edge-branch/",
+        "repository": "https://github.com/R-T-B/Kopernicus/"
+    },
+    "version": "UBEE_1121_203",
+    "download": "https://github.com/Kopernicus/Kopernicus/releases/download/release-203/Kopernicus-1.12.1-203.zip",
+    "download_size": 1066424,
+    "download_hash": {
+        "sha1": "BF58ED786CDF870C349333E932EFB3CD76E62F3A",
+        "sha256": "3B1C306DDFD715D4AA86CB70A61A6BD9F19707EE3EDB0D413548EC8CE79980CA"
+    },
+    "x_generated_by": "netkan"
+}
